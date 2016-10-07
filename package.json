@@ -9,6 +9,7 @@
     "clear": "rm -rf flex index.js"
   },
   "author": "GitM8 <mail@gitm8.com> (https://gitm8.com)",
+  "repository": { "type": "git", "url": "https://github.com/thegitm8/react-boxes.git" },
   "license": "MIT",
   "babel": {
     "plugins": [],
