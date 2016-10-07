@@ -1,0 +1,39 @@
+{
+  "name": "react-boxes",
+  "version": "0.1.0",
+  "description": "A small and independent layout library which provides easy-to-use layout templates as react components.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run clear && node_modules/.bin/babel src -d .",
+    "dev": "npm run clear && node_modules/.bin/babel src -d . --watch",
+    "clear": "rm -rf flex index.js"
+  },
+  "author": "GitM8 <mail@gitm8.com> (https://gitm8.com)",
+  "license": "MIT",
+  "babel": {
+    "plugins": [],
+    "presets": [
+      "es2015",
+      "react"
+    ],
+    "ignore": [
+      "node_modules"
+    ]
+  },
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-plugin-transform-object-assign": "^6.8.0",
+    "babel-plugin-transform-object-rest-spread": "^6.16.0",
+    "babel-plugin-transform-react-constant-elements": "^6.9.1",
+    "babel-plugin-transform-react-inline-elements": "^6.8.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "eslint": "^3.7.1",
+    "eslint-plugin-babel": "^3.3.0",
+    "eslint-plugin-react": "^6.3.0"
+  },
+  "dependencies": {
+    "inline-style-prefixer": "^2.0.4"
+  }
+}
